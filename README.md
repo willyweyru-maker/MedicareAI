@@ -1,7 +1,11 @@
 # MedicareAI
 
-MedicareAI is a WhatsApp-based AI receptionist designed for consultant doctors and clinics.  
-It automates patient appointment booking, service selection, and advance payments using M-PESA STK Push.
+MedicareAI is a digital assistant for consultant doctors that helps manage
+appointments, patient bookings, and advance payments via M-Pesa, with
+WhatsApp Business notifications.
+
+The system is designed to run as a mobile application (Android & iOS)
+backed by a secure backend service.
 
 The system acts like a virtual front desk — available 24/7 — reducing missed appointments and admin workload.
 
@@ -54,6 +58,13 @@ The system acts like a virtual front desk — available 24/7 — reducing missed
 3. Set up Google Sheets database
 4. Configure M-PESA STK Push
 5. Test appointment & payment flow
+
+## 🔐 Security & Configuration
+
+Sensitive credentials (M-Pesa keys, WhatsApp tokens, API secrets) are NOT
+stored in this repository.
+
+See `backend/.env.example` for required environment variables.
 
 ---
 
