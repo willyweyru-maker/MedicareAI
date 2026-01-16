@@ -1,0 +1,6 @@
+{
+  "shortcode": "YOUR_SHORTCODE",
+  "consumerKey": "YOUR_CONSUMER_KEY",
+  "consumerSecret": "YOUR_CONSUMER_SECRET",
+  "callbackUrl": "https://yourdomain.com/mpesa/callback"
+}
